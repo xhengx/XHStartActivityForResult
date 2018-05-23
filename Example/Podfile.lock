@@ -2,15 +2,15 @@ PODS:
   - XHStartActivityForResult (0.1.0)
 
 DEPENDENCIES:
-  - XHStartActivityForResult (from `../`)
+  - XHStartActivityForResult
 
-EXTERNAL SOURCES:
-  XHStartActivityForResult:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - XHStartActivityForResult
 
 SPEC CHECKSUMS:
-  XHStartActivityForResult: 4953c145237d5554906b8a58daf9ff2651645bc3
+  XHStartActivityForResult: a4c3b1866bc2cf9228f1ade50bf778295e7afdee
 
-PODFILE CHECKSUM: a69f0cb26d1e3cc1c485211d2ffb35324504f327
+PODFILE CHECKSUM: 178d8961719d19dd3c034ce372ef3c46bafd9a5b
 
 COCOAPODS: 1.5.0

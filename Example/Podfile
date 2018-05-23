@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'XHStartActivityForResult_Example' do
-  pod 'XHStartActivityForResult', :path => '../'
+   pod 'XHStartActivityForResult'
 
   target 'XHStartActivityForResult_Tests' do
     inherit! :search_paths

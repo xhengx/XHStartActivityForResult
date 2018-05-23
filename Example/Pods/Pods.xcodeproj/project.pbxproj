@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0B374A343848CCDFD30A2A48B3A7C506 /* Pods-XHStartActivityForResult_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75392E41DE32D43B09B68FB0332F8125 /* Pods-XHStartActivityForResult_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10CCD9B94FC3B9402B3C48B8AF102575 /* XHStartActivityForResult-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7C9BB3B0FE98190F6A7680ED642B1C /* XHStartActivityForResult-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10CCD9B94FC3B9402B3C48B8AF102575 /* XHStartActivityForResult-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C168D228BE19288A027084C1D83CDEB /* XHStartActivityForResult-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C9004E838111C10152B05E077742DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5CE5AAD2478E166B52F4D45A28E01ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6496EF58E85C44FD897175129E5588DF /* Pods-XHStartActivityForResult_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8E8BB51DB50FCA30E0FA675CD4AE40 /* Pods-XHStartActivityForResult_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87A6F5E691DB29DE596B6FA8D43109E2 /* XHStartActivityForResult-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 023391EB4582CE313958BA5DD6AE63FD /* XHStartActivityForResult-dummy.m */; };
-		8E31C661D4D1C28B270E54446F492B19 /* Intent.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEEB9B8DAE35ACFF59C5CB8002AF68 /* Intent.m */; };
-		9497071E6FDC789F16A571B28B972D33 /* UIViewController+XHStartActivityForResult.h in Headers */ = {isa = PBXBuildFile; fileRef = E3352F4A3930695499F45D6B570BF76D /* UIViewController+XHStartActivityForResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A6F5E691DB29DE596B6FA8D43109E2 /* XHStartActivityForResult-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DC156D2108784381450BB378177F3 /* XHStartActivityForResult-dummy.m */; };
+		8E31C661D4D1C28B270E54446F492B19 /* Intent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B08A9009381680ECE6C1024F1B3C784 /* Intent.m */; };
+		9497071E6FDC789F16A571B28B972D33 /* UIViewController+XHStartActivityForResult.h in Headers */ = {isa = PBXBuildFile; fileRef = DA610F76936C2205D3A90254DFA46253 /* UIViewController+XHStartActivityForResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD20A788210CBB27AF4172EEB99D087B /* Pods-XHStartActivityForResult_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E6CA4BB319257A13B3229D0D2CFE6C /* Pods-XHStartActivityForResult_Tests-dummy.m */; };
 		CD5BFB3CE51B2FAB65CEFB300AC43485 /* Pods-XHStartActivityForResult_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B08548F87E79D551A0CFCEA2DDBFC /* Pods-XHStartActivityForResult_Example-dummy.m */; };
-		DD483C0BDB4B33AEC9950D9074FABB3E /* UIViewController+XHStartActivityForResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 17339E6C2DA596EBFB594B9A91E1B124 /* UIViewController+XHStartActivityForResult.m */; };
-		EEE4FC15E64389EBEB86C965824ED94E /* Intent.h in Headers */ = {isa = PBXBuildFile; fileRef = E5010A12CA81D03041AEF6A4B0960C2E /* Intent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD483C0BDB4B33AEC9950D9074FABB3E /* UIViewController+XHStartActivityForResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAFCC379DE1FB79DF94C8B9BAEF6A30 /* UIViewController+XHStartActivityForResult.m */; };
+		EEE4FC15E64389EBEB86C965824ED94E /* Intent.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF4102599A00129F442633E6320CD1F /* Intent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5FE7D3202CB71CF1DDDA8800E74A9B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F7FE0B0166FF1F64358A0F3A27D9A7CA /* XHStartActivityForResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E03A2E07650B5DEA8F2BE4F0C4FC9A /* XHStartActivityForResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7FE0B0166FF1F64358A0F3A27D9A7CA /* XHStartActivityForResult.h in Headers */ = {isa = PBXBuildFile; fileRef = CE295D1DB17F3B78A0AD6BC687DF2A25 /* XHStartActivityForResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,45 +41,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023391EB4582CE313958BA5DD6AE63FD /* XHStartActivityForResult-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHStartActivityForResult-dummy.m"; sourceTree = "<group>"; };
 		027898D1D83DA62BC7F9D12EBB918D7A /* Pods-XHStartActivityForResult_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHStartActivityForResult_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		02A5647C7C382A41F603515CDCEEB308 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		05B497A9DD329E629631D62C59FA8586 /* Pods-XHStartActivityForResult_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHStartActivityForResult_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0B39747AD6E7B511FCE28268E6A6B8B8 /* Pods-XHStartActivityForResult_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHStartActivityForResult_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DBC839320D62A194FC69A485D6AA6AB /* XHStartActivityForResult.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHStartActivityForResult.modulemap; sourceTree = "<group>"; };
 		10AF7A2155FF41B4D5C776587D5B0D32 /* Pods-XHStartActivityForResult_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHStartActivityForResult_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		167E6F1EB94A2432AFA5BF8A83BBBB9E /* XHStartActivityForResult.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XHStartActivityForResult.framework; path = XHStartActivityForResult.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17339E6C2DA596EBFB594B9A91E1B124 /* UIViewController+XHStartActivityForResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+XHStartActivityForResult.m"; path = "XHStartActivityForResult/UIViewController+XHStartActivityForResult.m"; sourceTree = "<group>"; };
 		177ED7086F2405F3500AB14AB22C6A33 /* Pods-XHStartActivityForResult_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHStartActivityForResult_Tests.modulemap"; sourceTree = "<group>"; };
 		240807DE9938BFE2F6E16311865010F9 /* Pods-XHStartActivityForResult_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHStartActivityForResult_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2467362407E1A55FF45EF5FDFA1B1F89 /* Pods-XHStartActivityForResult_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHStartActivityForResult_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2DE8DCD8E56AAC5F129BA44136FE5E79 /* Pods_XHStartActivityForResult_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHStartActivityForResult_Tests.framework; path = "Pods-XHStartActivityForResult_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AA28BD86D1DBA393E604026B3C116A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B08A9009381680ECE6C1024F1B3C784 /* Intent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Intent.m; path = XHStartActivityForResult/Intent.m; sourceTree = "<group>"; };
+		4B9DC156D2108784381450BB378177F3 /* XHStartActivityForResult-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHStartActivityForResult-dummy.m"; sourceTree = "<group>"; };
 		52B789031F53A977ED152402CEE9A7E1 /* Pods-XHStartActivityForResult_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHStartActivityForResult_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5AE23345FE4CFC2067DCE61AB8AD4033 /* Pods-XHStartActivityForResult_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHStartActivityForResult_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D4B08548F87E79D551A0CFCEA2DDBFC /* Pods-XHStartActivityForResult_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHStartActivityForResult_Example-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67B1C122C28E1F7C9C8E2516C3A9CC5B /* Pods-XHStartActivityForResult_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHStartActivityForResult_Tests-resources.sh"; sourceTree = "<group>"; };
+		73D9FEEFB22785D18B4EEE765DF9C52A /* XHStartActivityForResult.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHStartActivityForResult.xcconfig; sourceTree = "<group>"; };
 		75392E41DE32D43B09B68FB0332F8125 /* Pods-XHStartActivityForResult_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHStartActivityForResult_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7C168D228BE19288A027084C1D83CDEB /* XHStartActivityForResult-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHStartActivityForResult-umbrella.h"; sourceTree = "<group>"; };
 		84989BDA55EE36374B8998C436211AAD /* Pods-XHStartActivityForResult_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHStartActivityForResult_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		852F537E9BA6BA091AD61DFB9A8439A8 /* Pods-XHStartActivityForResult_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHStartActivityForResult_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		88E03A2E07650B5DEA8F2BE4F0C4FC9A /* XHStartActivityForResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHStartActivityForResult.h; path = XHStartActivityForResult/XHStartActivityForResult.h; sourceTree = "<group>"; };
+		8DE9C194FE3FE53493B7DF2F258DD0E1 /* XHStartActivityForResult-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHStartActivityForResult-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A81A10C31D52A6F88185FFC751F0E3A /* Pods_XHStartActivityForResult_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHStartActivityForResult_Example.framework; path = "Pods-XHStartActivityForResult_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A12F3F24C668852AAAAA366E533B81AE /* XHStartActivityForResult-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHStartActivityForResult-prefix.pch"; sourceTree = "<group>"; };
-		A8DEEB9B8DAE35ACFF59C5CB8002AF68 /* Intent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Intent.m; path = XHStartActivityForResult/Intent.m; sourceTree = "<group>"; };
-		AB7C9BB3B0FE98190F6A7680ED642B1C /* XHStartActivityForResult-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHStartActivityForResult-umbrella.h"; sourceTree = "<group>"; };
 		BB8E8BB51DB50FCA30E0FA675CD4AE40 /* Pods-XHStartActivityForResult_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHStartActivityForResult_Example-umbrella.h"; sourceTree = "<group>"; };
+		CE295D1DB17F3B78A0AD6BC687DF2A25 /* XHStartActivityForResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHStartActivityForResult.h; path = XHStartActivityForResult/XHStartActivityForResult.h; sourceTree = "<group>"; };
 		D492BF19583DFE1521E795966E1BCFC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5CB7B790A570DAE68950E2AB19BAD24 /* Pods-XHStartActivityForResult_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHStartActivityForResult_Example.modulemap"; sourceTree = "<group>"; };
-		E2456686BB46B39C7D729799BA62577C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DA610F76936C2205D3A90254DFA46253 /* UIViewController+XHStartActivityForResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+XHStartActivityForResult.h"; path = "XHStartActivityForResult/UIViewController+XHStartActivityForResult.h"; sourceTree = "<group>"; };
 		E2E6CA4BB319257A13B3229D0D2CFE6C /* Pods-XHStartActivityForResult_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHStartActivityForResult_Tests-dummy.m"; sourceTree = "<group>"; };
-		E3352F4A3930695499F45D6B570BF76D /* UIViewController+XHStartActivityForResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+XHStartActivityForResult.h"; path = "XHStartActivityForResult/UIViewController+XHStartActivityForResult.h"; sourceTree = "<group>"; };
-		E5010A12CA81D03041AEF6A4B0960C2E /* Intent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Intent.h; path = XHStartActivityForResult/Intent.h; sourceTree = "<group>"; };
-		E514080BE3AD5DFDF97BE65D7BF16A36 /* XHStartActivityForResult.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XHStartActivityForResult.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB02E2732E834BCC9DE2B5F0EBF1EC10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F027765864A3187AD03E09C7A84D9DFA /* Pods-XHStartActivityForResult_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHStartActivityForResult_Example-resources.sh"; sourceTree = "<group>"; };
-		F05196002807384FA32945CEA47956C2 /* XHStartActivityForResult.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHStartActivityForResult.modulemap; sourceTree = "<group>"; };
-		F908F0ECF5321A17F6DB7E7F641296E0 /* XHStartActivityForResult.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHStartActivityForResult.xcconfig; sourceTree = "<group>"; };
-		FC707D9C53674EB3480D263223C81E12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAFCC379DE1FB79DF94C8B9BAEF6A30 /* UIViewController+XHStartActivityForResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+XHStartActivityForResult.m"; path = "XHStartActivityForResult/UIViewController+XHStartActivityForResult.m"; sourceTree = "<group>"; };
+		FFF4102599A00129F442633E6320CD1F /* Intent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Intent.h; path = XHStartActivityForResult/Intent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,21 +107,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		337884BE82DF4011AD2AAB358E1D5907 /* XHStartActivityForResult */ = {
-			isa = PBXGroup;
-			children = (
-				E5010A12CA81D03041AEF6A4B0960C2E /* Intent.h */,
-				A8DEEB9B8DAE35ACFF59C5CB8002AF68 /* Intent.m */,
-				E3352F4A3930695499F45D6B570BF76D /* UIViewController+XHStartActivityForResult.h */,
-				17339E6C2DA596EBFB594B9A91E1B124 /* UIViewController+XHStartActivityForResult.m */,
-				88E03A2E07650B5DEA8F2BE4F0C4FC9A /* XHStartActivityForResult.h */,
-				EDCCE25303B60F4520A0C9343B0B0D4C /* Pod */,
-				C78447696001375795431A05427310E1 /* Support Files */,
-			);
-			name = XHStartActivityForResult;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		576607F34506B1492BDE67E14DD30D73 /* Pods-XHStartActivityForResult_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,11 +129,33 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F952208453E7B73973580D15DF066099 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8E55C8BC8CC5BCC9E0B8999B050703D4 /* Pods */,
 				E3D6DFA7470A156B1A05394FAA895BA4 /* Products */,
 				F2D0D2D167D31E7F4BED2916FA794F55 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		868C005FD0D652E0BE5A306FAF8E2CFD /* XHStartActivityForResult */ = {
+			isa = PBXGroup;
+			children = (
+				FFF4102599A00129F442633E6320CD1F /* Intent.h */,
+				3B08A9009381680ECE6C1024F1B3C784 /* Intent.m */,
+				DA610F76936C2205D3A90254DFA46253 /* UIViewController+XHStartActivityForResult.h */,
+				FEAFCC379DE1FB79DF94C8B9BAEF6A30 /* UIViewController+XHStartActivityForResult.m */,
+				CE295D1DB17F3B78A0AD6BC687DF2A25 /* XHStartActivityForResult.h */,
+				B2F519B78E0E1B6557ADB8827B4D67AA /* Support Files */,
+			);
+			name = XHStartActivityForResult;
+			path = XHStartActivityForResult;
+			sourceTree = "<group>";
+		};
+		8E55C8BC8CC5BCC9E0B8999B050703D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				868C005FD0D652E0BE5A306FAF8E2CFD /* XHStartActivityForResult */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		A8323FDB3EB7DBBC0E9771F4675809B3 /* Pods-XHStartActivityForResult_Tests */ = {
@@ -172,26 +176,26 @@
 			path = "Target Support Files/Pods-XHStartActivityForResult_Tests";
 			sourceTree = "<group>";
 		};
+		B2F519B78E0E1B6557ADB8827B4D67AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB02E2732E834BCC9DE2B5F0EBF1EC10 /* Info.plist */,
+				0DBC839320D62A194FC69A485D6AA6AB /* XHStartActivityForResult.modulemap */,
+				73D9FEEFB22785D18B4EEE765DF9C52A /* XHStartActivityForResult.xcconfig */,
+				4B9DC156D2108784381450BB378177F3 /* XHStartActivityForResult-dummy.m */,
+				8DE9C194FE3FE53493B7DF2F258DD0E1 /* XHStartActivityForResult-prefix.pch */,
+				7C168D228BE19288A027084C1D83CDEB /* XHStartActivityForResult-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XHStartActivityForResult";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C78447696001375795431A05427310E1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC707D9C53674EB3480D263223C81E12 /* Info.plist */,
-				F05196002807384FA32945CEA47956C2 /* XHStartActivityForResult.modulemap */,
-				F908F0ECF5321A17F6DB7E7F641296E0 /* XHStartActivityForResult.xcconfig */,
-				023391EB4582CE313958BA5DD6AE63FD /* XHStartActivityForResult-dummy.m */,
-				A12F3F24C668852AAAAA366E533B81AE /* XHStartActivityForResult-prefix.pch */,
-				AB7C9BB3B0FE98190F6A7680ED642B1C /* XHStartActivityForResult-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XHStartActivityForResult";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -212,16 +216,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDCCE25303B60F4520A0C9343B0B0D4C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				02A5647C7C382A41F603515CDCEEB308 /* LICENSE */,
-				E2456686BB46B39C7D729799BA62577C /* README.md */,
-				E514080BE3AD5DFDF97BE65D7BF16A36 /* XHStartActivityForResult.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F2D0D2D167D31E7F4BED2916FA794F55 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,14 +223,6 @@
 				A8323FDB3EB7DBBC0E9771F4675809B3 /* Pods-XHStartActivityForResult_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F952208453E7B73973580D15DF066099 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				337884BE82DF4011AD2AAB358E1D5907 /* XHStartActivityForResult */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,7 +486,7 @@
 		};
 		6E790DDD5F1B38EB6CF6C4FAFB940A91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F908F0ECF5321A17F6DB7E7F641296E0 /* XHStartActivityForResult.xcconfig */;
+			baseConfigurationReference = 73D9FEEFB22785D18B4EEE765DF9C52A /* XHStartActivityForResult.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -530,7 +516,7 @@
 		};
 		7972866917E2A7EF3F40525932DC43E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F908F0ECF5321A17F6DB7E7F641296E0 /* XHStartActivityForResult.xcconfig */;
+			baseConfigurationReference = 73D9FEEFB22785D18B4EEE765DF9C52A /* XHStartActivityForResult.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
