@@ -1,0 +1,6 @@
+framework module XHStartActivityForResult {
+  umbrella header "XHStartActivityForResult-umbrella.h"
+
+  export *
+  module * { export * }
+}

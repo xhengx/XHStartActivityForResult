@@ -1,0 +1,16 @@
+PODS:
+  - XHStartActivityForResult (0.1.0)
+
+DEPENDENCIES:
+  - XHStartActivityForResult (from `../`)
+
+EXTERNAL SOURCES:
+  XHStartActivityForResult:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHStartActivityForResult: 4953c145237d5554906b8a58daf9ff2651645bc3
+
+PODFILE CHECKSUM: a69f0cb26d1e3cc1c485211d2ffb35324504f327
+
+COCOAPODS: 1.5.0
