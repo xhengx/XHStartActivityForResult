@@ -58,9 +58,9 @@
 }
 
 #pragma mark - Setter & Getter
-const char * requestCodeKey;
+const char * requestCodeKey = "requestCodeKey";
 - (void)setRequestCode:(NSInteger)requestCode {
-    objc_setAssociatedObject(self, &requestCodeKey, @(requestCode), OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, &requestCodeKey, @(requestCode), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (NSInteger)requestCode {
@@ -68,7 +68,7 @@ const char * requestCodeKey;
     return [value integerValue];
 }
 
-const char * extraKey;
+const char * extraKey = "extraKey";
 - (void)setExtra:(Intent *)extra {
     objc_setAssociatedObject(self, &extraKey, extra, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
@@ -78,7 +78,7 @@ const char * extraKey;
 }
 
 #pragma mark - Private Method
-const char *activityResultDelegateKey;
+const char *activityResultDelegateKey = "activityResultDelegateKey";
 - (void)setActivityResultDelegate:(id<ActivityResult>)activityResultDelegate {
     objc_setAssociatedObject(self, &activityResultDelegateKey, activityResultDelegate, OBJC_ASSOCIATION_ASSIGN);
 }

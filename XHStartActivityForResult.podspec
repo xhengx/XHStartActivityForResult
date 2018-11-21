@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHStartActivityForResult'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = '实现android的 startActivityForResult 机制'
 
 
@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XHStartActivityForResult/**/*'
+  s.source_files = 'XHStartActivityForResult/**/*.{h,m}'
 
 end
